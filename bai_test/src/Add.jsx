@@ -43,7 +43,7 @@ const Add = () => {
               <td>
                 <Form.Item
                   name="provinceCode"
-                  rules={[{ required: true, message: "Bắt buộc!" }]}
+                  rules={[{ required: true }]}
                   style={{ marginBottom: 0 }}
                 >
                   <Select
@@ -74,7 +74,7 @@ const Add = () => {
               <td>
                 <Form.Item
                   name="districtCode"
-                  rules={[{ required: true, message: "Bắt buộc!" }]}
+                  rules={[{ required: true }]}
                   style={{ marginBottom: 0 }}
                 >
                   <Input />
@@ -87,7 +87,7 @@ const Add = () => {
               <td>
                 <Form.Item
                   name="districtName"
-                  rules={[{ required: true, message: "Bắt buộc!" }]}
+                  rules={[{ required: true }]}
                   style={{ marginBottom: 0 }}
                 >
                   <Input />

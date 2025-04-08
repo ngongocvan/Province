@@ -89,7 +89,7 @@ const CardView = () => {
     });
 
     setResultData(filtered);
-    setSelectedItems([]); // Clear selected khi tìm mới
+    setSelectedItems([]); 
   };
 
   const handleSelectCheckbox = (districtCode, checked) => {
@@ -105,7 +105,7 @@ const CardView = () => {
       (item) => !selectedItems.includes(item.DistrictCode)
     );
     setResultData(newData);
-    setSelectedItems([]); // clear sau khi xóa
+    setSelectedItems([]); 
   };
 
   return (
